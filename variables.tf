@@ -29,7 +29,7 @@ variable "azure_os_image_version" {
     "rhel_7.6"        = ["RHEL", "RedHat", "7.6", "7.6.2019060521"]
     "rhel_7_ci"       = ["RHEL", "RedHat", "7-RAW-CI", "7.6.2019062019"]
     "rhel_8"          = ["RHEL", "RedHat", "8", "8.0.2019062020"]
-    "windows_1809"    = ["WindowsServer","MicrosoftWindowsServer", "Datacenter-Core-1809-with-Containers-smalldisk", "latest"]
+    "windows_1809"    = ["WindowsServer", "MicrosoftWindowsServer", "Datacenter-Core-1809-with-Containers-smalldisk", "latest"]
   }
 }
 
