@@ -21,7 +21,7 @@ module "dcos-tested-oses" {
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | azure\_os\_image\_version | Azure Images | map | `<map>` | no |
-| dcos\_version | Specifies which DC/OS version instruction to use. Options: 1.13.1, 1.12.3, 1.11.10, etc. See dcos_download_path or dcos_version tree for a full list. | string | `"1.13.1"` | no |
+| dcos\_version | Specifies which DC/OS version instruction to use. Options: 1.13.4, 1.12.4, 1.11.11, etc. See dcos_download_path or dcos_version tree for a full list. | string | `"1.13.1"` | no |
 | os | Operating system to use | string | `"centos_7.6"` | no |
 | traditional\_default\_os\_user | Standard Default OS Users | map | `<map>` | no |
 

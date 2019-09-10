@@ -1,0 +1,48 @@
+2019/09/10 15:42:31 [INFO] Terraform version: 0.11.14 mesosphere 
+2019/09/10 15:42:31 [INFO] Go runtime version: go1.12
+2019/09/10 15:42:31 [INFO] CLI args: []string{"/bin/terraform", "init", "-upgrade"}
+2019/09/10 15:42:31 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2019/09/10 15:42:31 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/09/10 15:42:31 [INFO] CLI command args: []string{"init", "-upgrade"}
+2019/09/10 15:42:31 [DEBUG] command: loading backend config file: /jenkins/workspace/zurerm-tested-oses_support_0.1.x
+2019/09/10 15:42:31 [INFO] command: empty terraform config, returning nil
+2019/09/10 15:42:31 [DEBUG] command: no data state file found for backend config
+2019/09/10 15:42:31 [DEBUG] New state was assigned lineage "15444598-e4b9-cf16-b740-84e00760090a"
+2019/09/10 15:42:31 [INFO] command: backend initialized: <nil>
+2019/09/10 15:42:31 [DEBUG] checking for provider in "."
+2019/09/10 15:42:31 [DEBUG] checking for provider in "/bin"
+2019/09/10 15:42:31 [DEBUG] checking for provisioner in "."
+2019/09/10 15:42:31 [DEBUG] checking for provisioner in "/bin"
+2019/09/10 15:42:31 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2019/09/10 15:42:31 [INFO] command: backend <nil> is not enhanced, wrapping in local
+2019/09/10 15:42:31 [DEBUG] checking for provider in "."
+2019/09/10 15:42:31 [DEBUG] checking for provider in "/bin"
+2019/09/10 15:42:31 [DEBUG] plugin: waiting for all plugin processes to complete...
+2019/09/10 15:42:31 [INFO] Terraform version: 0.11.14 mesosphere 
+2019/09/10 15:42:31 [INFO] Go runtime version: go1.12
+2019/09/10 15:42:31 [INFO] CLI args: []string{"/bin/terraform", "validate", "-check-variables=false"}
+2019/09/10 15:42:31 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2019/09/10 15:42:31 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/09/10 15:42:31 [INFO] CLI command args: []string{"validate", "-check-variables=false"}
+2019/09/10 15:42:31 [DEBUG] plugin: waiting for all plugin processes to complete...
+2019/09/10 15:43:26 [INFO] Terraform version: 0.11.14 mesosphere 
+2019/09/10 15:43:26 [INFO] Go runtime version: go1.12
+2019/09/10 15:43:26 [INFO] CLI args: []string{"/bin/terraform", "fmt", "main.tf"}
+2019/09/10 15:43:26 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2019/09/10 15:43:26 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/09/10 15:43:26 [INFO] CLI command args: []string{"fmt", "main.tf"}
+2019/09/10 15:43:26 [DEBUG] plugin: waiting for all plugin processes to complete...
+2019/09/10 15:43:26 [INFO] Terraform version: 0.11.14 mesosphere 
+2019/09/10 15:43:26 [INFO] Go runtime version: go1.12
+2019/09/10 15:43:26 [INFO] CLI args: []string{"/bin/terraform", "fmt", "outputs.tf"}
+2019/09/10 15:43:26 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2019/09/10 15:43:26 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/09/10 15:43:26 [INFO] CLI command args: []string{"fmt", "outputs.tf"}
+2019/09/10 15:43:26 [DEBUG] plugin: waiting for all plugin processes to complete...
+2019/09/10 15:43:26 [INFO] Terraform version: 0.11.14 mesosphere 
+2019/09/10 15:43:26 [INFO] Go runtime version: go1.12
+2019/09/10 15:43:26 [INFO] CLI args: []string{"/bin/terraform", "fmt", "variables.tf"}
+2019/09/10 15:43:26 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2019/09/10 15:43:26 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/09/10 15:43:26 [INFO] CLI command args: []string{"fmt", "variables.tf"}
+2019/09/10 15:43:26 [DEBUG] plugin: waiting for all plugin processes to complete...
