@@ -1,6 +1,6 @@
 variable "traditional_default_os_user" {
   description = "Standard Default OS Users"
-  type        = "map"
+  type        = map(string)
 
   default = {
     coreos  = "core"
@@ -13,7 +13,7 @@ variable "traditional_default_os_user" {
 
 variable "azure_os_image_version" {
   description = "Azure Images"
-  type        = "map"
+  type        = map(string)
 
   default = {
     "centos_7.2"      = ["CentOS", "OpenLogic", "7.2", "7.2.20170517"]
@@ -37,3 +37,4 @@ variable "os" {
   description = "Operating system to use"
   default     = "centos_7.6"
 }
+

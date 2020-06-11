@@ -19,12 +19,13 @@
  */
 
 locals {
-  os_name    = "${element(split("_", var.os),0)}"
-  os_version = "${element(split("_", var.os),1)}"
+  os_name    = element(split("_", var.os), 0)
+  os_version = element(split("_", var.os), 1)
 
-  user            = "${lookup(var.traditional_default_os_user, local.os_name)}"
-  azure_offer     = "${element(var.azure_os_image_version[var.os], 0)}"
-  azure_publisher = "${element(var.azure_os_image_version[var.os], 1)}"
-  azure_sku       = "${element(var.azure_os_image_version[var.os], 2)}"
-  azure_version   = "${element(var.azure_os_image_version[var.os], 3)}"
+  user            = var.traditional_default_os_user[local.os_name]
+  azure_offer     = element(var.azure_os_image_version[var.os], 0)
+  azure_publisher = element(var.azure_os_image_version[var.os], 1)
+  azure_sku       = element(var.azure_os_image_version[var.os], 2)
+  azure_version   = element(var.azure_os_image_version[var.os], 3)
 }
+
